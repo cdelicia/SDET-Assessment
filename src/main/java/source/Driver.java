@@ -21,7 +21,7 @@ public class Driver {
     }
 
     private static void initialize(boolean isHeadless, boolean isMaximized) {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
         Map<String, Object> chromePreferences = new HashMap<>();
         chromePreferences.put("credentials_enable_service", false);
         chromePreferences.put("password_manager_enabled", false);
