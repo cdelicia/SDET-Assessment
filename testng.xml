@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ESAssessment">
+    <test name="Add n number of elements and assert that they exist">
+        <classes>
+            <class name="test.ESAssessmentTest"/>
+        </classes>
+    </test>
+</suite>
