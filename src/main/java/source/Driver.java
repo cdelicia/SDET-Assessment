@@ -21,7 +21,6 @@ public class Driver {
     }
 
     private static void initialize(boolean isHeadless, boolean isMaximized) {
-        //System.setProperty("webdriver.chrome.driver", "/Users/dima/chromedriver_mac_arm64/chromedriver");
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         Map<String, Object> chromePreferences = new HashMap<>();
         chromePreferences.put("credentials_enable_service", false);
