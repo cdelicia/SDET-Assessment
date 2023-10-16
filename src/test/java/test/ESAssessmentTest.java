@@ -1,5 +1,6 @@
 package test;
 
+import io.qameta.allure.Feature;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -18,6 +19,7 @@ public class ESAssessmentTest {
         driver = Driver.getDriver(true, false);
     }
 
+    @Feature("SDET-Assessment")
     @Test
     public void theScenario() {
         int actualNumberOfElements;
@@ -30,6 +32,7 @@ public class ESAssessmentTest {
         Assert.assertEquals(expectedNumberOfElements, actualNumberOfElements,
                 "The actual number of \"Delete button\" elements on the page is not equal" +
                 " to expected number of elements (" + expectedNumberOfElements + ")");
+        System.out.println("I AM HERE AND I AM DONE!!! " + actualNumberOfElements + " " + expectedNumberOfElements);
     }
 
     @AfterMethod
