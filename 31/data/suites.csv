@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 16 19:04:59 GMT 2023","Mon Oct 16 19:05:00 GMT 2023","706","ESAssessment","Add n number of elements and assert that they exist","test.ESAssessmentTest","test.ESAssessmentTest","theScenario","theScenario",""
