@@ -1,4 +1,4 @@
-name: allure-junit5-maven
+name: java-selenium-testng-maven-allure
 
 on: [ push ]
 
