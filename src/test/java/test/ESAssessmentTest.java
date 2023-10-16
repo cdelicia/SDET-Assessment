@@ -1,7 +1,6 @@
 package test;
 
-import io.qameta.allure.Description;
-import io.qameta.allure.Step;
+import io.qameta.allure.Feature;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -20,9 +19,8 @@ public class ESAssessmentTest {
         driver = Driver.getDriver(true, false);
     }
 
-    @Step("a. navigates to (https://the-internet.herokuapp.com/add_remove_elements) \n" +
-            "b. adds n number of elements\n" + "c. asserts that n number of elements exist on the page")
-    @Description("SDET-Assessment")
+
+    @Feature("SDET Assessment")
     @Test
     public void theScenario() {
         int actualNumberOfElements;
