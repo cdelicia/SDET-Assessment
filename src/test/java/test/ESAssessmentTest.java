@@ -19,7 +19,6 @@ public class ESAssessmentTest {
         driver = Driver.getDriver(true, false);
     }
 
-
     @Feature("SDET Assessment")
     @Test
     public void theScenario() {
